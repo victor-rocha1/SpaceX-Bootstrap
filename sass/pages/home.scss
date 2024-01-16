@@ -1,0 +1,68 @@
+.container00{
+    &.container01{
+        background-image: url(../../images/home/01.jpg);
+    }
+    &.container02{
+        background-image: url(../../images/home/02.gif);
+    }
+    &.container03{
+        background-image: url(../../images/home/03.jpg);
+    }
+    &.container04{
+        background-image: url(../../images/home/04.jpg);
+    }
+}
+
+.titlePadding{
+    padding-top: 200px;
+}
+
+.shortTitle{
+    width: 550px;
+    margin-bottom: -25px;
+}
+
+.mediumTitle{
+    width: 650px;
+    margin-bottom: -35px;
+}
+
+//Media Query
+
+@media (max-width: 450px){
+    .logoPC{
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer{
+        font-size: 10px;
+
+    }
+}
+
+@media(max-width: 350px){
+    .logoPC{
+        width: 150px;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:750px){
+    .titlePadding{
+        padding-top: 120px;
+    }
+
+    .shortTitle, .mediumTitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+@media(max-width:380px){
+    .shortTitle, .mediumTitle{
+        width: auto;
+        font-size: 40px;
+    }
+}
+
