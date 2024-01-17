@@ -1,39 +1,39 @@
-.header{
+.header {
     font-size: 12px;
     font-weight: bold;
 
-    #navItem{
-        &:hover{
+    #navItem {
+        &:hover {
             color: $link-hover;
         }
     }
 }
 
-.container00{
+.container00 {
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.arrowDown{
+.arrowDown {
     display: inline-block;
     width: 90px;
     margin-top: 5px;
 }
 
-.logoPC{
-    width: 250px;
+.logoPC {
+    width: 150px;
     margin-left: -80px;
     margin-right: -10;
 }
 
-#button{
+#button {
     padding: $padding-button;
     border: 2px solid #fff;
 }
 
-.footer{
+.footer {
     background-color: #000;
     height: 15vh;
     font-size: 12px;
@@ -43,16 +43,15 @@
     justify-content: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 
-    &:hover{
+    &:hover {
         color: $link-hover;
     }
 
-    .copyVRS{
+    .copyVRS {
         color: $copy-color;
     }
 }
-
